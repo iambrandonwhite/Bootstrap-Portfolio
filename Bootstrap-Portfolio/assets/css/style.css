@@ -236,3 +236,10 @@ input[type=submit] {
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+
+@media screen and (max-width: 640px) {
+    main, body, .nav, .bio, container, .auth-image, .main-container img
+    {
+        width: 100%;
+    }
+}
